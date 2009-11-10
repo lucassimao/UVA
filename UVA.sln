@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hashmat the brave warrior", "Hashmat the brave warrior\Hashmat the brave warrior.vcproj", "{7DAD42E7-FB47-422F-8A11-98A234D139F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ecological Premium", "Ecological Premium\Ecological Premium.vcproj", "{3B93B52B-D700-4572-988D-A2716DFE2580}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Machined Surfaces", "Machined Surfaces\Machined Surfaces.vcproj", "{465B0B8A-E150-4DBB-8471-52C247D5E608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DAD42E7-FB47-422F-8A11-98A234D139F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DAD42E7-FB47-422F-8A11-98A234D139F0}.Debug|Win32.Build.0 = Debug|Win32
+		{7DAD42E7-FB47-422F-8A11-98A234D139F0}.Release|Win32.ActiveCfg = Release|Win32
+		{7DAD42E7-FB47-422F-8A11-98A234D139F0}.Release|Win32.Build.0 = Release|Win32
+		{3B93B52B-D700-4572-988D-A2716DFE2580}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B93B52B-D700-4572-988D-A2716DFE2580}.Debug|Win32.Build.0 = Debug|Win32
+		{3B93B52B-D700-4572-988D-A2716DFE2580}.Release|Win32.ActiveCfg = Release|Win32
+		{3B93B52B-D700-4572-988D-A2716DFE2580}.Release|Win32.Build.0 = Release|Win32
+		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Debug|Win32.Build.0 = Debug|Win32
+		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Release|Win32.ActiveCfg = Release|Win32
+		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
