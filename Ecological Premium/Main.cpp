@@ -24,7 +24,8 @@ int main(int argc,char* argv[]){
 			cin >> qtdeAnimals;
 			cin >> qualidade;
 
-			budget += (farmyard/qtdeAnimals)*qualidade*qtdeAnimals;
+			//budget += (farmyard/qtdeAnimals)*qualidade*qtdeAnimals;
+                        budget += farmyard*qualidade;
 		}
 		cout << budget << endl;
 
