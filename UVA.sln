@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Machined Surfaces", "Machin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Back to High School Physics", "Back to High School Physics\Back to High School Physics.vcproj", "{8300D74B-C377-4A47-9395-7864C07A4AAC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman Judge", "Hangman Judge\Hangman Judge.vcproj", "{7CC262FD-5574-4477-8E88-588B3A71A24E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Debug|Win32.Build.0 = Debug|Win32
 		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Release|Win32.ActiveCfg = Release|Win32
 		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Release|Win32.Build.0 = Release|Win32
+		{7CC262FD-5574-4477-8E88-588B3A71A24E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CC262FD-5574-4477-8E88-588B3A71A24E}.Debug|Win32.Build.0 = Debug|Win32
+		{7CC262FD-5574-4477-8E88-588B3A71A24E}.Release|Win32.ActiveCfg = Release|Win32
+		{7CC262FD-5574-4477-8E88-588B3A71A24E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
