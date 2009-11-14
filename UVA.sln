@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ecological Premium", "Ecolo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Machined Surfaces", "Machined Surfaces\Machined Surfaces.vcproj", "{465B0B8A-E150-4DBB-8471-52C247D5E608}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Back to High School Physics", "Back to High School Physics\Back to High School Physics.vcproj", "{8300D74B-C377-4A47-9395-7864C07A4AAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Debug|Win32.Build.0 = Debug|Win32
 		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Release|Win32.ActiveCfg = Release|Win32
 		{465B0B8A-E150-4DBB-8471-52C247D5E608}.Release|Win32.Build.0 = Release|Win32
+		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Debug|Win32.Build.0 = Debug|Win32
+		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Release|Win32.ActiveCfg = Release|Win32
+		{8300D74B-C377-4A47-9395-7864C07A4AAC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

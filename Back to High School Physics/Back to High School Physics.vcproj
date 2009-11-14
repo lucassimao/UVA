@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="Hashmat the brave warrior"
-	ProjectGUID="{7DAD42E7-FB47-422F-8A11-98A234D139F0}"
-	RootNamespace="Hashmatthebravewarrior"
+	Name="Back to High School Physics"
+	ProjectGUID="{8300D74B-C377-4A47-9395-7864C07A4AAC}"
+	RootNamespace="BacktoHighSchoolPhysics"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -187,10 +187,6 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
-		<File
-			RelativePath=".\Input.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
