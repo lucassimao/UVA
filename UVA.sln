@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman Judge", "Hangman Ju
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The Decoder", "The Decoder\The Decoder.vcproj", "{77648132-B750-4395-8454-F86F17FA6FE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Marvelous Mazes", "Marvelous Mazes\Marvelous Mazes.vcproj", "{9BA5F5AC-7ACC-4006-9FA3-0F93DEEEDA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -43,6 +45,10 @@ Global
 		{77648132-B750-4395-8454-F86F17FA6FE4}.Debug|Win32.Build.0 = Debug|Win32
 		{77648132-B750-4395-8454-F86F17FA6FE4}.Release|Win32.ActiveCfg = Release|Win32
 		{77648132-B750-4395-8454-F86F17FA6FE4}.Release|Win32.Build.0 = Release|Win32
+		{9BA5F5AC-7ACC-4006-9FA3-0F93DEEEDA41}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BA5F5AC-7ACC-4006-9FA3-0F93DEEEDA41}.Debug|Win32.Build.0 = Debug|Win32
+		{9BA5F5AC-7ACC-4006-9FA3-0F93DEEEDA41}.Release|Win32.ActiveCfg = Release|Win32
+		{9BA5F5AC-7ACC-4006-9FA3-0F93DEEEDA41}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
