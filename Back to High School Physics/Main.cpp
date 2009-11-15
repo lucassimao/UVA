@@ -1,5 +1,6 @@
 #include <iostream>
-using std::cin;
+#include <cmath>
+
 using namespace std;
 
 int main(int argc,char **argv){
@@ -11,7 +12,7 @@ int main(int argc,char **argv){
 		cin>>t;
 		//double aceleracao = v/t; v = v0+at .:. a = v/t
 		// displacement = s = s0 + v0t + a*pow(t,2)/2
-		cout << (v*t*2) << endl;
+		cout << abs(v*t*2) << endl;
 	}
 
 	return 0;
