@@ -25,10 +25,10 @@ int main(int argc,char* argv[]){
 	while(casos_de_teste--){
 		int qtdeFarmers = 0;
 		*input >> qtdeFarmers;
-		double budget = 0.0;
+		int budget = 0;
 
 		while(qtdeFarmers--){
-			double farmyard=0.0; 
+			int farmyard=0; 
 			int qtdeAnimals=0,qualidade =0;
 
 			*input >> farmyard;
