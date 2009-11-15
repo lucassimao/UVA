@@ -13,7 +13,7 @@ int main(int argc,char **argv){
 
 	char space  = ' ';
 
-	while(!cin.eof()){
+	while(cin.peek()!=EOF){
 		ostringstream codigo;
 		string linha;
 

@@ -13,11 +13,11 @@ int main(int argc,char **argv){
 	int round;
 	
 	while(true){
-		cin >> round;
+		scanf("%d",&round);
 		cin.ignore();
 
 		if (round == -1) break;
-		else cout << "Round "<< round << endl;
+		else printf("Round %d\n", round);
 
 		string palavra;
 		string guesses;
@@ -44,12 +44,12 @@ int main(int argc,char **argv){
 			++iterator;
 		}
 		if (erros > MAX_ERRORS){
-			cout << LOSER_MSG << endl;
+			printf("%s\n",LOSER_MSG);
 		}else
 		if (palavra.length() == 0){
-			cout << WIN_MSG << endl;
+			printf("%s\n",WIN_MSG);
 		}
-		else cout << FAIL_MSG << endl;
+		else printf("%s\n",FAIL_MSG);
 		
 	}
 	return 0;

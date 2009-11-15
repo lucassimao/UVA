@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc,char **argv){
 
-	while(!cin.eof()){
+	while(cin.peek()!=EOF){
 		string msg;
 		getline(cin,msg);
 		
