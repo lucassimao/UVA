@@ -3,12 +3,12 @@
 #include <sstream>
 using namespace std;
 
-void inline imprimir(char *c,int *qtdeVezes){
+void inline imprimir(char c,int *qtdeVezes){
 	for(int i=0;i<*qtdeVezes;++i)
-		printf("%c",*c);
+		printf("%c",c);
 	*qtdeVezes = 0;
 }
-
+//445 - Marvelous Mazes
 int main(int argc,char **argv){
 
 	char space  = ' ';
@@ -33,16 +33,16 @@ int main(int argc,char **argv){
 
 			if (isdigit(c)) count += atoi(&c);
 			else
-				if (c=='b')	imprimir(&space,&count);
-
-				else
-					if (c=='!' || c=='\n') cout << endl;
-				else imprimir(&c,&count);
-
-					++iterator;
+				switch(c){
+					case 'b':imprimir(space,&count);break;
+					case '!': 
+					case '\n':cout << endl;break;
+					default: imprimir(c,&count);
+				}
+			++iterator;
 
 		}
-		cout<<endl;
+		cout <<endl;
 	}
 
 
