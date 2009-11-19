@@ -29,7 +29,7 @@ int main(int argc,char **argv){
 		string::const_iterator iterator =  guesses.begin();
 		int erros = 0;
 
-		while(palavra.length()>0 && iterator != guesses.end()){
+		while(palavra.length()>0 && iterator != guesses.end() && erros < MAX_ERROS){
 			char c = *iterator;
 			int pos = palavra.find(c);
 
@@ -38,8 +38,9 @@ int main(int argc,char **argv){
 				do{
 
 				palavra = palavra.substr(0,pos) + palavra.substr(pos+1);
+				pos = palavra.find(c);
 
-			}while(palavra.length()>0 && (pos=palavra.find(c))!=-1);
+				}while(pos!=-1 && palavra.length()>0);
 
 			++iterator;
 
